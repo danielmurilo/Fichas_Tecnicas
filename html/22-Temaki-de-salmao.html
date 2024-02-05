@@ -1,0 +1,285 @@
+<style> 
+
+    .table-content {
+        background-color: white;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    .table-content table {
+        background-color: white;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .table-content table thead {
+        background-color: #DDFEE3;
+    }
+
+    .top-left-radius {
+        border-top-left-radius: 8px;
+    }
+
+    .top-right-radius {
+        border-top-right-radius: 8px;
+    }
+
+    .bottom-left-radius {
+        border-bottom-left-radius: 8px;
+    }
+
+    .bottom-right-radius {
+        border-bottom-right-radius: 8px;
+    }
+
+    table, th, td { 
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .left-content {
+        text-align: start;
+    }
+
+    .centered-content {
+        text-align: center;
+    }
+
+    .how-to-prepare-content {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+        background-color: white;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .how-to-prepare-content .left {
+        width: 70%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .how-to-prepare-content .left .footerr
+     {
+        padding-top: 30px;
+    }
+
+    .how-to-prepare-content .left .footerr
+     img {
+        width: 60%;
+    }
+
+    .how-to-prepare-content .right {
+        width: 30%;
+        height: 500px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .how-to-prepare-content .right img {
+        border-radius: 8px;
+        max-width: 90%;
+        height: 500px;
+    }
+
+    .how-to-prepare-content ul {
+        list-style-type: square;
+    }
+
+    .how-to-prepare-content .list {
+        padding-left: 25px;
+        padding-right: 8px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        
+        .table-content {
+            overflow-x:auto;
+        }
+
+        .how-to-prepare-content {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-end;
+            height: 100%;
+            justify-content: space-between;
+        }
+
+        .how-to-prepare-content .left {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .how-to-prepare-content .right {
+            width: 100%;
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .how-to-prepare-content .list {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .how-to-prepare-content .left .footerr img {
+            width: 100%;
+        }
+
+    }
+
+</style>
+
+<!-- start of table -->
+
+<div class="table-content">
+    <h2>Ficha de Produção</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col" class="top-left-radius">NOME DE VENDA DO PRATO:</th>
+                <th scope="col" colspan="5" class="top-right-radius">TEMAKI DE SALMÃO</th>
+            </tr>
+            <tr>
+                <th scope="col" class="left-content">Ingredientes</th>
+                <th scope="col" class="centered-content">Und de Medida</th>
+                <th scope="col" class="centered-content">Ficha</th>
+                <th scope="col" class="centered-content">Peso Bruto</th>
+                <th scope="col">Para Produzir</th>
+                <th scope="col">Observação</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Filé de Salmão Cortado em Cubos</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.400</td>
+                <td class="centered-content">0.400</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Folha de Nori Cortadas ao Meio</td>
+                <td class="centered-content">UND</td>
+                <td class="centered-content">5</td>
+                <td class="centered-content">5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Arroz tipo Japonês</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.510</td>
+                <td class="centered-content">0.510</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Água</td>
+                <td class="centered-content">L</td>
+                <td class="centered-content">0.700</td>
+                <td class="centered-content">0.700</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Vinagre de Arroz</td>
+                <td class="centered-content">L</td>
+                <td class="centered-content">0.030</td>
+                <td class="centered-content">0.030</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saquê Culinário Mirin</td>
+                <td class="centered-content">L</td>
+                <td class="centered-content">0.0375</td>
+                <td class="centered-content">0.0375</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Açúcar</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.060</td>
+                <td class="centered-content">0.060</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sal Refinado</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.003</td>
+                <td class="centered-content">0.003</td>
+                <td></td>
+                <td></td>
+            </tr>     
+            <tr>
+                <td>Cream Cheese</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.075</td>
+                <td class="centered-content">0.075</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Cebolinha Cortada em Rodelas</td>
+                <td class="centered-content">KG</td>
+                <td class="centered-content">0.015</td>
+                <td class="centered-content">0.015</td>
+                <td></td>
+                <td></td>
+            </tr>              
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6" class="centered-content bottom-left-radius bottom-right-radius">Unidade: KG = Quilo | L = Litro | UND. = Unidade</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</div>
+
+<!-- end of table -->
+
+<div class="how-to-prepare-content">
+    <div class="left">
+        <section>
+            <h2>Modo de Preparo</h2>
+            <div class="list">
+                <ul>
+                    <li>Em uma panela grande, coloque a água e leve ao fogo alto para aquecer. Ao abrir fervura, junte o arroz, mexa com cuidado e deixe cozinhar com a panela semitampada por 20 minutos, ou até a água começar a secar.</li>
+                    <li>Abaixe o fogo e cozinhe por mais 7 minutos. Retire do fogo, tampe, cubra a panela com um pano de prato limpo e deixe descansar por 10 minutos. Transfira o arroz para uma tigela e reserve.</li>
+                    <li>Em uma panela média, coloque o vinagre, o saquê, o açúcar, o sal e leve ao fogo médio até levantar fervura. Retire do fogo, regue o arroz ainda quente, mexa cuidadosamente com uma espátula para que todo o arroz seja temperado e espere amornar.</li>
+                </ul>                    
+            </div>
+
+            <h2>Sequência de Montagem</h2>
+            <div class="list">
+                <ul>
+                    <li>Em uma tigela, coloque o salmão, o cream cheese e a cebolinha, e misture.</li>
+                    <li>Sobre o lado fosco da folha de nori, com o auxílio de uma colher ou espátula, espalhe o arroz até formar uma camada de aproximadamente 0,5 cm. Disponha o salmão e enrole em formato de cone pressionando a parte inferior. Repita o processo com os ingredientes restantes e sirva logo em seguida.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="footerr">
+            <!-- logo -->
+        </div>
+    </div>
+    <div class="right">
+        <img src="https://i.postimg.cc/5y0sS0YL/image.png" alt="">
+    </div>
+</div>
